@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="CommandBarTemplateSettings" />
+    <RootPropertyPathName Name="OverflowContentMaxWidth" />
+    <RootPropertyPathName Name="OverflowContentMaxHeight" />
+    <RootPropertyPathName Name="OverflowContentMinWidth" />
+    <RootPropertyPathName Name="OverflowContentHorizontalOffset" />
+    <RootPropertyPathName Name="Title" />
+    <RootPropertyPathName Name="ID" />
+    <RootPropertyPathName Name="NoteContentIsReadOnly" />
+    <RootPropertyPathName Name="Notes" />
+    <RootPropertyPathName Name="SelectedNote" />
+    <RootPropertyPathName Name="Filter" />
+    <RootPropertyPathName Name="SearchBoxIsEnabled" />
+    <RootPropertyPathName Name="ExitCommand" />
+    <RootPropertyPathName Name="DeleteNoteCommand" />
+    <RootPropertyPathName Name="DeleteButtonIsEnabled" />
+    <RootPropertyPathName Name="EditNoteCommand" />
+    <RootPropertyPathName Name="EditButtonIsEnabled" />
+    <RootPropertyPathName Name="SaveNoteCommand" />
+    <RootPropertyPathName Name="SaveButtonIsEnabled" />
+    <RootPropertyPathName Name="AddNoteCommand" />
+    <RootPropertyPathName Name="AddButtonIsEnabled" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="Style" />
+      <RootProperty Name="PrimaryCommands" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="SecondaryCommands" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Control">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ControlTemplate">
+      <RootProperty Name="TargetType" />
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="MaxHeight" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Clip" />
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="RowDefinitions" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.Popup">
+      <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform">
+      <RootProperty Name="X" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="UpdateSourceTrigger" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.RectangleGeometry" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBarOverflowPresenter">
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="IsEnabled" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="ItemContainerStyle" />
+      <RootProperty Name="RenderTransform" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.TemplateBindingExtension" />
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="ContentTransitions" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="VerticalContentAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="IsTabStop" />
+      <RootProperty Name="MinHeight" />
+      <RootProperty Name="ItemsPanel" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Content" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="BottomAppBar" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="IsEnabled" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetHelpText" />
+      <RootMethod Name="SetHelpText" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="LocalNote.AboutPage" />
+    <RootType FullName="LocalNote.MainPageData" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="IsEnabled" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RichEditBox">
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="IsReadOnly" />
+      <RootProperty Name="AcceptsReturn" />
+      <RootProperty Name="InputScope" />
+      <RootEvent Name="TextChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarSeparator" />
+    <RootType FullName="LocalNote.MainPage" />
+  </Roots.RootTypes>
+</Roots>

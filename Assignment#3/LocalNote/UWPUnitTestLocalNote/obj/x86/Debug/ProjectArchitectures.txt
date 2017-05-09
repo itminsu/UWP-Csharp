@@ -1,0 +1,2 @@
+C:\Users\Minsu\Documents\Visual Studio 2015\Projects\WindowsProgramming\assignments\Assignment#3\LocalNote\LocalNote\LocalNote.csproj;x86
+C:\Users\Minsu\Documents\Visual Studio 2015\Projects\WindowsProgramming\assignments\Assignment#3\LocalNote\UWPUnitTestLocalNote\UWPUnitTestLocalNote.csproj;x86

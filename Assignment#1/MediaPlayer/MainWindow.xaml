@@ -1,0 +1,51 @@
+﻿<Window x:Class="MediaPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MediaPlayer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Open" CanExecute="Open_CanExecute" Executed="Open_Executed" />
+        <CommandBinding Command="ApplicationCommands.Close" CanExecute="Close_CanExecute" Executed="Close_Executed" />
+        <CommandBinding Command="MediaCommands.Play" CanExecute="Play_CanExecute" Executed="Play_Executed" />
+        <CommandBinding Command="MediaCommands.Pause" CanExecute="Pause_CanExecute" Executed="Pause_Executed" />
+        <CommandBinding Command="MediaCommands.Stop" CanExecute="Stop_CanExecute" Executed="Stop_Executed" />
+    </Window.CommandBindings>
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            <Menu>
+                <MenuItem>
+                    <MenuItem.Icon>
+                        <Image Source="/Resources/file.png" Width="16" Height="16"/>
+                    </MenuItem.Icon>
+                    <MenuItem Command="ApplicationCommands.Open" />
+                    <MenuItem Header="About" Click="AboutMenuItem_Click"/>
+                    <MenuItem Command="ApplicationCommands.Close"/>
+                </MenuItem>
+            </Menu>
+            <Separator/>
+            <Button Command="MediaCommands.Play">
+                <Image Source="/Resources/play.jpg" Width="16" Height="16"/>
+            </Button>
+            <Button Command="MediaCommands.Pause">
+                <Image Source="/Resources/pause.jpg" Width="16" Height="16"/>
+            </Button>
+            <Button Command="MediaCommands.Stop">
+                <Image Source="/Resources/stop.jpg" Width="16" Height="16"/>
+            </Button>
+        </ToolBar>
+        <Border DockPanel.Dock="Bottom">
+            <Grid>
+                <TextBlock Name="progressStatusLabel" VerticalAlignment="center" Margin="10">00:00:00</TextBlock>
+                <Slider x:Name="progressStatusSlider" Margin="60,10,10,10" HorizontalAlignment="Stretch" VerticalAlignment="Center" Thumb.DragStarted="sliProgress_DragStarted"  Thumb.DragCompleted="sliProgress_DragCompleted" ValueChanged="sliProgress_ValueChanged"/>
+            </Grid>
+        </Border>
+        <Border>
+            <Grid>
+                <MediaElement Name="myVideo" LoadedBehavior="Manual" Margin="0,-0.333,0,4.667"/>
+            </Grid>
+        </Border>
+    </DockPanel>
+</Window>

@@ -1,0 +1,6 @@
+C:\Users\Minsu\Documents\Visual Studio 2015\Projects\WindowsProgramming\assignments\Assignment#3\LocalNote\UnitTestLocalNote\bin\Debug\UnitTestLocalNote.dll
+C:\Users\Minsu\Documents\Visual Studio 2015\Projects\WindowsProgramming\assignments\Assignment#3\LocalNote\UnitTestLocalNote\bin\Debug\UnitTestLocalNote.pdb
+C:\Users\Minsu\Documents\Visual Studio 2015\Projects\WindowsProgramming\assignments\Assignment#3\LocalNote\UnitTestLocalNote\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Minsu\Documents\Visual Studio 2015\Projects\WindowsProgramming\assignments\Assignment#3\LocalNote\UnitTestLocalNote\obj\Debug\UnitTestLocalNote.csprojResolveAssemblyReference.cache
+C:\Users\Minsu\Documents\Visual Studio 2015\Projects\WindowsProgramming\assignments\Assignment#3\LocalNote\UnitTestLocalNote\obj\Debug\UnitTestLocalNote.dll
+C:\Users\Minsu\Documents\Visual Studio 2015\Projects\WindowsProgramming\assignments\Assignment#3\LocalNote\UnitTestLocalNote\obj\Debug\UnitTestLocalNote.pdb
